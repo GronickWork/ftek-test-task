@@ -14,5 +14,13 @@ export const cargoList = [
     origin: "Санкт-Петербург",
     destination: "Екатеринбург",
     departureDate: "2025-01-22"
+  },
+  {
+    id: "CARGO003",
+    name: "Хрупкий груз",
+    status: "Доставлен",
+    origin: "Нижний Новгород",
+    destination: "Уфа",
+    departureDate: "2025-01-17"
   }
 ]

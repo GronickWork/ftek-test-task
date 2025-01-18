@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import clnm  from 'classnames';
+import { colors } from '../utils/colors';
 
 export default function SelectStatusCargo() {
-  const colors = ['bg-info', 'bg-warning', 'bg-primary', 'bg-success', ];
+  //const colors = ['bg-info', 'bg-warning', 'bg-primary', 'bg-success', ];
   const [ bgColor, setBgColor ] = useState('bg-info');
   function handlerSelect(e) {
     const chosenNum = e.target.value * 1;
-    setBgColor( colors[chosenNum] );
+    setBgColor( 'bg-'+colors[chosenNum] );
   };
   return (
     <div className={clnm('form', 'text-white', bgColor)} onChange={handlerSelect}>
