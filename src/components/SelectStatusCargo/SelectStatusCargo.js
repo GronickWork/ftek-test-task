@@ -1,22 +1,20 @@
 import React, { useState } from 'react';
 import clnm  from 'classnames';
 import { colors } from '../utils/colors';
+import { statuses } from '../utils/statuses';
 
-export default function SelectStatusCargo() {
-  //const colors = ['bg-info', 'bg-warning', 'bg-primary', 'bg-success', ];
+export default function SelectStatusCargo({forSort}) {
   const [ bgColor, setBgColor ] = useState('bg-info');
   function handlerSelect(e) {
     const chosenNum = e.target.value * 1;
     setBgColor( 'bg-'+colors[chosenNum] );
+    forSort(chosenNum);
   };
   return (
     <div className={clnm('form', 'text-white', bgColor)} onChange={handlerSelect}>
       <label className='select-label' htmlFor="selC">Фильтр по статусу груза</label> 
       <select className={clnm('form-select', 'text-white', bgColor)} id="selC">
-        <option value="0">Показать всё</option>
-        <option value="1">Ожидает отправки</option>
-        <option value="2">В пути</option>
-        <option value="3">Доставлен</option>
+        {statuses.map((el, index) => <option key={index} value={index}>{el}</option>)}
       </select> 
     </div>
   )
