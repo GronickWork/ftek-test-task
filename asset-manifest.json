@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ftek-test-task/static/css/main.fc58e617.css",
+    "main.js": "/ftek-test-task/static/js/main.47d1515e.js",
+    "static/js/488.813226bd.chunk.js": "/ftek-test-task/static/js/488.813226bd.chunk.js",
+    "static/media/deliver.png": "/ftek-test-task/static/media/deliver.f861d7483f259bfcd309.png",
+    "index.html": "/ftek-test-task/index.html",
+    "main.fc58e617.css.map": "/ftek-test-task/static/css/main.fc58e617.css.map",
+    "main.47d1515e.js.map": "/ftek-test-task/static/js/main.47d1515e.js.map",
+    "488.813226bd.chunk.js.map": "/ftek-test-task/static/js/488.813226bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc58e617.css",
+    "static/js/main.47d1515e.js"
+  ]
+}
