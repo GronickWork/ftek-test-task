@@ -2,6 +2,7 @@
   "name": "ftek-test-task",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://GronickWork.github.io/ftek-test-task/",
   "dependencies": {
     "bootstrap": "^5.3.3",
     "classnames": "^2.5.1",
@@ -14,7 +15,6 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^4.2.4"
   },
-  "homepage": "https://gronickWork.github.io/ftek-test-task/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -40,5 +40,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Создать интерфейс для отслеживания грузов транспортной компании. Интерфейс должен позволять:\r 1.\tПросматривать список грузов с текущим статусом.\r 2.\tОбновлять статус груза.\r 3.\tДобавлять новый груз для отслеживания.",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }
